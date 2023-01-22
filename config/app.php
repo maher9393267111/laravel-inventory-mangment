@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'default' => env('DB_CONNECTION', 'pgsql'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
